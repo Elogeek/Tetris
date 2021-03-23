@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>tetris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="container">
+
+    <h3>Le jeu du tetris</h3>
+    <div id="Tetris">
+        <ul id="Scrren">
+            <li><canvas width="200" height="400" id="Main-scrren">error</canvas></li>
+            <li>
+                <p>Suivante</p>
+                <canvas width="60" height="60" id="Sub-scrren">error</canvas>
+                <p>Score</p>
+                <div id="Score">
+                </div>
+                <p id="play">Play</p>
+            </li>
+        </ul>
+
+        <div class="rules" style="margin-left:70px;">
+            <h2>Règles</h2>
+            <span>← gauche
+                  → droite
+                  ↓ en bas
+                  ↑ rotation
+            </span>
+        </div>
+
+        <canvas width="250" height="40" id="Game_over">error</canvas>
+    </div>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

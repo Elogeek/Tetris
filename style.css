@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size:11pt;
+    font-family:cursive;
+    color: #303030;
+    line-height: 15pt;
+}
+
+body {
+    height: 100vw;
+    font: 30px sans-serif;
+    background: linear-gradient(278deg, rgba(48,48,48,1) 0%, rgba(105,99,96,0.9345939059217437) 0%, rgba(182,186,176,1) 60%, rgba(240,240,240,1) 100%);
+}
+
+h3 {
+    color: greenyellow;
+    font-size: xx-large;
+    text-align: center;
+    margin: 50px;
+    text-decoration: #303030 wavy underline;
+}
+/*try game*/
+#Tetris {
+    width: 433px;
+    height: 442px;
+    margin: 50px auto 0 auto;
+    background-color: greenyellow;
+    border: 3px inset #303030;
+    position: relative;
+}
+/*rules*/
+.rules {
+    color: black;
+    position: relative;
+    top : -7rem;
+    left: 14rem;
+    height: 68px;
+    width: 137px;
+}
+
+/*area game*/
+#Scrren {
+    list-style-type: none;
+    float: left;
+}
+
+#Scrren li{
+    float: left;
+}
+/*game*/
+#Main-scrren{
+    background-image: url("fond-game.png");
+    margin: 20px 0 0 50px;
+}
+/*next tetris coin*/
+#Sub-scrren {
+    background-color:white;
+    margin: 0 0 0 20px;
+}
+
+#Scrren p {
+    margin: 30px 0 0 25px;
+}
+
+#Game_over {
+    position: absolute;
+    top:180px;
+    left:60px;
+    display: none;
+}
+
+#Score {
+    position: relative;
+    width: 80px;
+    height: 20px;
+    top: 0;
+    left:10px;
+    overflow: hidden;
+}
+/*button*/
+#play {
+    background-color: #bed0ff;
+    color: white;
+    width: 40px;
+    height: 25px;
+    border: solid 2px white;
+    border-radius: 3px;
+    padding-left: 10px;
+    cursor: pointer;
+}
